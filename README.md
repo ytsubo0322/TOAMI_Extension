@@ -1,7 +1,7 @@
 # TOAMI
 [Readme: 日本語 - Japanese](./README_ja.md)
 
-![TOAMI_logo](https://github.com/user-attachments/assets/5f36abc3-0dce-42d8-9f6a-71393ff80129)
+<img width="1500" height="413" alt="TOAMI_TITLE_ICON" src="https://github.com/user-attachments/assets/fda03c5f-dde2-44e6-8b21-5fe26277a2d5" />
 
 TOAMI: A powerful browser extension for phishing hunters
 
