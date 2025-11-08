@@ -1,0 +1,14 @@
+[
+  {
+    "brand": "Amazon",
+    "hash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "domain": "amazon.co.jp",
+    "keywords": ["amazon", "アマゾン", "amazon.co.jp"]
+  },
+  {
+    "brand": "BrandA",
+    "hash": "abcd1234abcd1234abcd1234abcd1234abcd1234abcd1234abcd1234abcd1234",
+    "domain": "brand-a.jp",
+    "keywords": ["brand a", "brand-a", "Brand A"]
+  }
+]

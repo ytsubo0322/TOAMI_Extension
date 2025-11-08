@@ -1,0 +1,45 @@
+{
+  "name": "TOAMI-投網-",
+  "description": "フィッシングハンター支援用ブラウザ拡張ツール",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "storage",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "rules/ioks/*.yml",
+        "rules/yara/*.yar",
+        "rules/brands.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/TOAMI_icon16.png",
+      "48": "icons/TOAMI_icon48.png",
+      "128": "icons/TOAMI_icon128.png"
+    }
+  }
+}
